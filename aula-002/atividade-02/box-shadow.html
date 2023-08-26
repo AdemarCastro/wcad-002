@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 02 - Box Shadow</title>
+
+  <style>
+    .box {
+      width: 200px;
+      height: 100px;
+      padding: 20px;
+      margin: 20px;
+      text-align: center;
+      background-color: wheat;
+    }
+
+    .box.black {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+
+    .box.pink {
+      box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box black" >
+    <p>Div Box 1</p>
+  </div>
+
+  <div class="box pink">
+    <p>Div Box 2</p>
+  </div>
+</body>
+
+</html>
