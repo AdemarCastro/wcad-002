@@ -1,0 +1,47 @@
+body {
+  font-size: 1rem;
+}
+
+header {
+  background-color: yellow;
+  text-align: center;
+}
+
+nav {
+  float: left;
+  text-align: left;
+  padding: 0 11rem 0 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  float: left;
+  border-left: 2px solid green;
+  padding: 0 8px;
+}
+
+aside {
+  float: right;
+  border: 3px dashed green;
+  padding: 0 8px;
+  text-align: right;
+}
+
+.data {
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
